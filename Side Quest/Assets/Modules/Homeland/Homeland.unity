@@ -484,8 +484,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 2100341883}
   - {fileID: 1564302360}
+  - {fileID: 2100341883}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -791,6 +791,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2990948844226100279, guid: d42bc4dce1ba94851b0beb5b5f8624dd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72dda424c7c5543999e8ad17956aa21b, type: 2}
     - target: {fileID: 4836276942183405793, guid: d42bc4dce1ba94851b0beb5b5f8624dd,
         type: 3}
       propertyPath: m_Name
@@ -1717,7 +1722,7 @@ PrefabInstance:
     - target: {fileID: 2704232435524444263, guid: 6317aa9938af843c59bcc2035d0a8302,
         type: 3}
       propertyPath: m_text
-      value: TJK's Snowball Toss
+      value: Portal Test
       objectReference: {fileID: 0}
     - target: {fileID: 2704232435836060432, guid: 6317aa9938af843c59bcc2035d0a8302,
         type: 3}
@@ -1872,11 +1877,12 @@ PrefabInstance:
     - target: {fileID: 2704232436995407134, guid: 6317aa9938af843c59bcc2035d0a8302,
         type: 3}
       propertyPath: m_text
-      value: 'This is test text
+      value: 'This is a test of the
 
-        to see if TJK''s world
+        portal capabilities
 
-        scene load.'
+        of Lyceum
+        AR Portals'
       objectReference: {fileID: 0}
     - target: {fileID: 2704232436995407135, guid: 6317aa9938af843c59bcc2035d0a8302,
         type: 3}
@@ -2487,7 +2493,7 @@ RectTransform:
   m_Children:
   - {fileID: 733119358}
   m_Father: {fileID: 369364784}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

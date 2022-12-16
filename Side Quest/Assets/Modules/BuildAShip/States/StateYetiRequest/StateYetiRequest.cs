@@ -13,7 +13,7 @@ namespace Niantic.ARVoyage.BuildAShip
     /// </summary>
     public class StateYetiRequest : StateBase
     {
-        private const float yetiRequestDuration = 6f;
+        private const float yetiRequestDuration = 600f;
 
         private BuildAShipManager buildAShipManager;
 
